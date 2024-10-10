@@ -42,8 +42,6 @@ class LabyrinthSolver:
     def find_path(self):
         """
         Finds the path from start to end of the labyrinth. Using backtracking and BFS.
-        :param x: int (x coordinate)
-        :param y: i (y coordinate)
         :return: bool(True if path found, False if not.)
         """
         moves = queue.Queue()
